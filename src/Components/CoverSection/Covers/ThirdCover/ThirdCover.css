@@ -1,0 +1,9 @@
+.text-section-third {
+  margin-top: 12.5rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .text-section-third {
+    margin-top: 3.125rem;
+  }
+}/*# sourceMappingURL=ThirdCover.css.map */

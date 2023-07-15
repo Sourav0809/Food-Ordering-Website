@@ -1,0 +1,15 @@
+.main-items-container {
+  margin-top: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}/*# sourceMappingURL=UI.css.map */

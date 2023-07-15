@@ -1,0 +1,10 @@
+@import "../../../Style/CssFunc";
+.text-section-third {
+  margin-top: toRem(200);
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .text-section-third {
+    margin-top: toRem(50);
+  }
+}

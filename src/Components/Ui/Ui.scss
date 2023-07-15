@@ -1,0 +1,17 @@
+@import "../Style/CssFunc";
+
+.main-items-container {
+  margin-top: toRem(10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: toRem(40);
+}

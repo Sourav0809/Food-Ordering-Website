@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,900&display=swap");
+.main-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-section {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-section img {
+  width: 40vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 13.125rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+}
+.text-container h3 {
+  font-size: 1.875rem;
+  color: rgb(80, 171, 80);
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+}
+.text-container h1 {
+  font-size: 6.25rem;
+  font-weight: bold;
+  color: rgb(20, 25, 79);
+  font-family: "Poppins", sans-serif;
+}
+
+.text-para {
+  font-family: "Poppins", sans-serif;
+}
+.text-para p {
+  font-size: 1.125rem;
+}
+
+.cover-btn {
+  margin-top: 1.25rem;
+  width: 9.375rem;
+  padding: 0.625rem 1.0625rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  background-color: rgb(29, 35, 95);
+  color: white;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .main-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .image-section img {
+    width: 80%;
+  }
+  .text-section {
+    margin-top: 1.25rem;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .text-container h1 {
+    font-size: 3.125rem;
+  }
+}/*# sourceMappingURL=FirstCover.css.map */
