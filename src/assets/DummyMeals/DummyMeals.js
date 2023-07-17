@@ -35,6 +35,24 @@ const DummyMeals = [
         img: "https://img.freepik.com/premium-photo/aloo-poha-with-jalebi-snack-combination-also-called-imarti-kande-pohe_466689-88544.jpg?w=740",
         id: "e6",
     },
+    {
+        itemName: "Grilled Chicken",
+        price: 120,
+        img: "https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?w=1380&t=st=1689526300~exp=1689526900~hmac=bd45a22c2f5151cef02181a4a5485dfa13f8f34e4f8bebe8432da505782a6b11",
+        id: "e7",
+    },
+    {
+        itemName: "SandWitch",
+        price: 200,
+        img: "https://img.freepik.com/free-photo/side-view-club-sandwich-with-french-fries-wooden-serving-board_176474-3048.jpg?w=1380&t=st=1689527166~exp=1689527766~hmac=292b5b6a1202115fb2b526f3110367a1768d869ff1f1e3497c3cc0243b529e1b",
+        id: "e6",
+    },
+    {
+        itemName: "Kabab",
+        price: 400,
+        img: "https://img.freepik.com/free-photo/beyti-kebab-served-with-ayran-pickles_141793-1870.jpg?w=996&t=st=1689527243~exp=1689527843~hmac=fe2b719cb9017b1f4b002c35c2c02462c4a242913308f5417f00b6df0634d20c",
+        id: "e7",
+    },
 ];
 
 export default DummyMeals

@@ -26,7 +26,7 @@ const CoversContainer = () => {
       spaceBetween={50}
       slidesPerView={1}
       navigation
-      autoplay={{ delay: 5000 }}
+      // autoplay={{ delay: 3000 }}
       pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
     >

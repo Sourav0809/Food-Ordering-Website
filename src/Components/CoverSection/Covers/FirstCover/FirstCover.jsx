@@ -19,7 +19,7 @@ const FirstCover = () => {
         </div>
       </div>
       <div className="image-section">
-        <img src="https://img.freepik.com/premium-photo/isolated-pizza-with-mushrooms-olives_219193-8149.jpg?w=826" />
+        <img src="https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg?w=826" />
       </div>
     </section>
   );

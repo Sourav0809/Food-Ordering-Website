@@ -2,9 +2,26 @@
 .text-section-third {
   margin-top: toRem(200);
 }
+.image-section-third {
+  object-fit: cover;
+  padding: toRem(10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    padding-top: toRem(45);
+    width: 45vw;
+    object-fit: cover;
+  }
+}
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
   .text-section-third {
     margin-top: toRem(50);
+  }
+  .image-section-third {
+    img {
+      width: 80%;
+    }
   }
 }

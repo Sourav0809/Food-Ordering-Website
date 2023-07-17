@@ -1,6 +1,6 @@
 .product-container {
   box-shadow: 0px 2px 14px #888888;
-  padding: 0.625rem;
+  padding: 0.9375rem;
   height: 25rem;
   width: 25rem;
   display: flex;
@@ -9,8 +9,12 @@
   border-radius: 0.4375rem;
 }
 
+.product-container:hover {
+  border: 1px solid rgb(29, 35, 95);
+}
+
 .product-img {
-  height: 80%;
+  height: 75%;
   width: 100%;
 }
 .product-img img {
@@ -47,4 +51,20 @@
   font-size: 0.9375rem;
   background-color: rgb(29, 35, 95);
   color: white;
+}
+
+.review-sec {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.125rem;
+}
+
+.review-icons {
+  color: rgb(25, 160, 25);
+  font-size: 1.25rem;
+}
+
+.review-icons-last {
+  color: rgb(25, 160, 25);
+  font-size: 1.375rem;
 }/*# sourceMappingURL=Items.css.map */
