@@ -1,0 +1,24 @@
+@import "../Style/CssFunc";
+
+.footer {
+  margin-top: toRem(60);
+  margin-bottom: toRem(4);
+  border-radius: toRem(5);
+  box-shadow: 0px 2px 14px #888888;
+  padding: toRem(8);
+  font-family: "Poppins", sans-serif;
+}
+.main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon {
+  font-size: toRem(30);
+  color: rgb(25, 160, 25);
+}
+.footer-text {
+  font-size: toRem(15);
+  padding-left: toRem(10);
+  color: rgb(20, 25, 79);
+}

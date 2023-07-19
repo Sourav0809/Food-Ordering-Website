@@ -14,6 +14,7 @@ const Items = (props) => {
           <ImStarFull className="review-icons" />
           <ImStarFull className="review-icons" />
           <ImStarFull className="review-icons" />
+          <ImStarFull className="review-icons" />
           <RiStarHalfFill className="review-icons-last" />
         </div>
         <div className="product-text">{props.name}</div>

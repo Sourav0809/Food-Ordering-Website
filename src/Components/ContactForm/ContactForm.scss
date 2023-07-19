@@ -1,0 +1,113 @@
+@import "../Style/CssFunc";
+
+.contact-form-heading {
+  margin-top: toRem(150);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(25, 160, 25);
+  font-size: toRem(22);
+}
+.contact-form-heading-icon {
+  font-size: toRem(30);
+}
+
+.contact-form-2nd-heading {
+  color: rgb(22, 32, 82);
+  font-family: "Poppins", sans-serif;
+  font-size: toRem(35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: toRem(5);
+}
+
+.contact-form-container {
+  margin-top: toRem(10);
+  width: toRem(800);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  //   justify-content: center;
+  box-shadow: 0px 2px 14px #888888;
+}
+.contact-us-form {
+  padding: toRem(10);
+  font-family: "Poppins", sans-serif;
+  color: rgb(22, 32, 82);
+  width: 100%;
+  .contact-form-name,
+  .contact-form-phone,
+  .contact-form-email {
+    padding: toRem(4) toRem(15);
+    display: flex;
+    flex-direction: column;
+    input {
+      width: 100%;
+      padding: toRem(8);
+      border-radius: toRem(4);
+      outline: rgb(22, 32, 82);
+      font-size: toRem(20);
+    }
+  }
+}
+.contact-us-form {
+  .contact-form-message,
+  .contact-form-adress {
+    display: flex;
+    flex-direction: column;
+    padding: toRem(4) toRem(15);
+    input {
+      width: 70%;
+      height: toRem(100);
+      padding: toRem(3);
+      border-radius: toRem(4);
+      outline: none;
+      box-shadow: none;
+      font-size: toRem(20);
+    }
+  }
+}
+
+.contact-us-btn {
+  border-radius: toRem(5);
+  border: none;
+  background-color: rgb(20, 25, 79);
+  color: white;
+  margin-left: toRem(15);
+  margin-top: toRem(5);
+  padding: toRem(9) toRem(22);
+  font-size: toRem(14);
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.contact-form-label {
+  font-weight: 600;
+}
+// Media Queries For different Screen Sizes
+
+// for Mobile Phone screen Max Width 500px
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .contact-form-container {
+    width: 90%;
+    padding: toRem(10);
+  }
+  .contact-us-form {
+    .contact-form-message,
+    .contact-form-adress {
+      display: flex;
+      flex-direction: column;
+      padding: toRem(4) toRem(15);
+      input {
+        width: 88%;
+      }
+    }
+  }
+}
+
+// for tablet screen Max width 900px
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .contact-form-container {
+    width: 80%;
+    padding: toRem(10);
+  }
+}
