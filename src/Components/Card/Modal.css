@@ -62,4 +62,14 @@
 }
 .cart-container h3 {
   font-size: 1.5625rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .modal-overlay {
+    width: 100%;
+    top: 2.5rem;
+  }
+  .cart-container--items {
+    height: 50vh;
+  }
 }/*# sourceMappingURL=Modal.css.map */

@@ -64,3 +64,17 @@
     font-size: toRem(25);
   }
 }
+
+// Media Queries For different Screen Sizes
+
+// for Mobile Phone screen Max Width 500px
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .modal-overlay {
+    width: 100%;
+    top: toRem(40);
+  }
+
+  .cart-container--items {
+    height: 50vh;
+  }
+}
