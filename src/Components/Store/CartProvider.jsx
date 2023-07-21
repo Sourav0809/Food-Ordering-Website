@@ -11,10 +11,10 @@ const CartProvider = (props) => {
   };
 
   // when user increment quantity from cart page
+
   const incrementHandeler = (id) => {
     setCartItems((prevItems) => {
       return prevItems.map((values) => {
-        console.log(values);
         if (id === values.id) {
           values.quantity += 1;
         }
@@ -22,6 +22,7 @@ const CartProvider = (props) => {
       });
     });
   };
+
   // when user decrement quantity from cart page
   const decrementHandeler = (id) => {
     setCartItems((prevItems) => {

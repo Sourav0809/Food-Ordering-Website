@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./UI.css";
+import "./Ui.css";
 const Ui = (props) => {
   return (
     <div className="main-items-container">

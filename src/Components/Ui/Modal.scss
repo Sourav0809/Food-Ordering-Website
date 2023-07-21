@@ -1,4 +1,4 @@
-@import "../../Components/Style/CssFunc";
+@import "../Style/CssFunc";
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -42,8 +42,6 @@
   }
 }
 
-.overlay-container {
-}
 .cart-container--items {
   height: 75vh;
   overflow: scroll;
