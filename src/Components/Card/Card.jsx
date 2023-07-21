@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import "./UI.css";
-const UI = (props) => {
+import "./Card.css";
+const Card = (props) => {
   return (
     <div className="main-items-container">
       <div className="items-container">{props.children}</div>
@@ -8,6 +8,6 @@ const UI = (props) => {
   );
 };
 
-export default UI;
+export default Card;
 
 //

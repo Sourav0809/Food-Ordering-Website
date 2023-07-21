@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./ItemsContainer.css";
-import UI from "../UI/UI";
+import Card from "../Card/Card";
 import Items from "../Items/Items";
 import DummyMeals from "../../assets/DummyMeals/DummyMeals";
 import CartContext from "../Store/CartContext";
@@ -23,7 +23,7 @@ const ItemsContainer = (props) => {
     <>
       <h5 className="items-container-heading">Our Dishes</h5>
       <h2 className="items-container-2nd-heading">Popular Dishes</h2>
-      <UI>
+      <Card>
         {newArr.map((items) => {
           return (
             <Items
@@ -37,7 +37,7 @@ const ItemsContainer = (props) => {
             />
           );
         })}
-      </UI>
+      </Card>
     </>
   );
 };

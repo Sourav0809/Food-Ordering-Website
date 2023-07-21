@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./Cart.css";
-import Modal from "../UI/Modal";
+import Modal from "../Card/Modal";
 import CartContext from "../Store/CartContext";
 import { useContext } from "react";
 import useStopScroll from "../Hooks/useStopScroll";
