@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./ItemsContainer.css";
-import Ui from "../Ui/Ui";
+import Ui from "../UI/UI";
 import Items from "../Items/Items";
 import DummyMeals from "../../assets/DummyMeals/DummyMeals";
 import CartContext from "../Store/CartContext";
