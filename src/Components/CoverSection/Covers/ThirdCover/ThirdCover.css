@@ -11,7 +11,7 @@
   align-items: center;
 }
 .image-section-third img {
-  padding-top: 2.8125rem;
+  padding-top: 3.4375rem;
   width: 45vw;
   -o-object-fit: cover;
      object-fit: cover;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
   .text-section-third {
-    margin-top: 3.125rem;
+    margin-top: 5rem;
   }
   .image-section-third img {
     width: 80%;

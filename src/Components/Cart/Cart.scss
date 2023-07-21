@@ -1,0 +1,101 @@
+@import "../Style/CssFunc";
+
+.cart-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-btn {
+  margin-top: toRem(10);
+  display: flex;
+  gap: toRem(5);
+}
+.order-btn,
+.close-btn {
+  font-size: toRem(18);
+  border: none;
+  padding: toRem(5) toRem(14);
+  background-color: rgb(10, 10, 70);
+  color: white;
+  border-radius: toRem(5);
+  cursor: pointer;
+}
+
+.cart-items-container {
+  padding: toRem(10);
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+.cart-item-image-name {
+  display: flex;
+  gap: toRem(10);
+  justify-content: start;
+  align-items: center;
+}
+.cart-image-container {
+  width: toRem(150);
+  height: toRem(150);
+  box-shadow: 0px 2px 14px #888888;
+  object-fit: cover;
+  img {
+    padding: toRem(10);
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: toRem(7);
+  }
+}
+
+.cart-item-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: toRem(5);
+}
+
+.cart-item-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-qunatity-btn {
+  padding: toRem(3) toRem(10);
+  font-size: toRem(20);
+  border-radius: toRem(7);
+  cursor: pointer;
+}
+
+.total-amount-container {
+  padding: toRem(5) toRem(50);
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty-cart-container {
+  padding: toRem(40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: toRem(80);
+    height: toRem(80);
+    background-image: url(https://cdn3.iconfinder.com/data/icons/shopping-and-ecommerce-29/90/empty_cart-512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.empty-cart-text {
+  font-size: toRem(28);
+  text-align: center;
+}
+
+.cart-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: toRem(20);
+}

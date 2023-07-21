@@ -2,8 +2,31 @@
 import "./Items.css";
 import { ImStarFull } from "react-icons/im";
 import { RiStarHalfFill } from "react-icons/ri";
-
+import CartContext from "../Store/CartContext";
+import { useContext, useState } from "react";
 const Items = (props) => {
+  // using usestate to addtocart button when someone clicked the btn
+  const [cartBtnName, setCartBtnName] = useState("Add To Cart");
+  // using context here
+  const cartCtx = useContext(CartContext);
+  // when someone clicked the add to cart btn
+
+  const addToCartHandeler = () => {
+    const addedCartItems = {
+      name: props.name,
+      price: props.price,
+      quantity: 1,
+      id: props.id,
+      img: props.img,
+    };
+    if (props.alreadyPresent === true) {
+      props.viewCart();
+    } else {
+      setCartBtnName("View Cart");
+      cartCtx.addItems(addedCartItems);
+    }
+  };
+
   return (
     <>
       <div className="product-container">
@@ -20,7 +43,9 @@ const Items = (props) => {
         <div className="product-text">{props.name}</div>
         <div className="product-price">
           <h3>&#8377;{props.price}</h3>
-          <button>Add To Cart</button>
+          <button onClick={addToCartHandeler}>
+            {props.alreadyPresent ? "View Cart" : cartBtnName}
+          </button>
         </div>
       </div>
     </>
