@@ -46,7 +46,7 @@ const Cart = (props) => {
                     </button>
                   </div>
                   <div className="cart-item-price">
-                    <h2>&#8377;{items.price}</h2>
+                    <h2>&#8377; {items.price}</h2>
                   </div>
                 </div>
                 <hr />
@@ -55,7 +55,7 @@ const Cart = (props) => {
           })}
           <div className="total-amount-container">
             <h1>Total Price</h1>
-            <h1>&#8377;{cartCtx.totalPrice}</h1>
+            <h1>&#8377; {cartCtx.totalPrice}</h1>
           </div>
 
           <div className="cart-btn">
@@ -71,9 +71,11 @@ const Cart = (props) => {
             <h1 className="empty-cart-text">Your Cart is Empty </h1>
             <div className="empty-item-div"></div>
           </div>
-          <button onClick={props.hideCartPage} className="close-btn">
-            Close
-          </button>
+          <div className="close-btn-container">
+            <button onClick={props.hideCartPage} className="close-btn">
+              Close
+            </button>
+          </div>
         </>
       )}
     </Modal>
