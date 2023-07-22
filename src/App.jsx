@@ -21,7 +21,7 @@ function App() {
 
   return (
     <CartProvider>
-      <Header viewCart={viewCartHandeler} />;
+      <Header viewCart={viewCartHandeler} />
       {viewCart && <Cart hideCartPage={hideCartPage} />}
       <>
         <CoversContainer />
