@@ -108,4 +108,11 @@
   justify-content: end;
   align-items: center;
   padding-right: 1.25rem;
+}
+
+@media screen and (min-width: 290px) and (max-width: 480px) {
+  .cart-image-container {
+    width: 8.125rem;
+    height: 8.125rem;
+  }
 }/*# sourceMappingURL=Cart.css.map */

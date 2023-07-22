@@ -24,7 +24,7 @@ const DummyMeals = [
         id: "e4",
     },
     {
-        itemName: "Hot Pizza",
+        itemName: "Pizza",
         price: 75,
         img: "https://img.freepik.com/free-photo/imeretian-khachapuri-cheese-lemon-side-view_140725-11276.jpg?w=996&t=st=1689432834~exp=1689433434~hmac=b0cc15e755696fcc5cfee7fbe95a796c89f506033fe4815894e56c87b6f58fa0",
         id: "e5",
@@ -36,13 +36,13 @@ const DummyMeals = [
         id: "e6",
     },
     {
-        itemName: "Grilled Chicken",
+        itemName: "Paratha",
         price: 120,
         img: "https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?w=1380&t=st=1689526300~exp=1689526900~hmac=bd45a22c2f5151cef02181a4a5485dfa13f8f34e4f8bebe8432da505782a6b11",
         id: "e7",
     },
     {
-        itemName: "SandWitch",
+        itemName: "Sandwitch",
         price: 200,
         img: "https://img.freepik.com/free-photo/side-view-club-sandwich-with-french-fries-wooden-serving-board_176474-3048.jpg?w=1380&t=st=1689527166~exp=1689527766~hmac=292b5b6a1202115fb2b526f3110367a1768d869ff1f1e3497c3cc0243b529e1b",
         id: "e8",
