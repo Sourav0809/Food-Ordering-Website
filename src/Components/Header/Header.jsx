@@ -16,6 +16,7 @@ const Header = (props) => {
           onClick={props.viewCart}
           className="header-custom-icons-1"
         />
+
         <MdFavorite className="header-custom-icons" />
         <BiSearch className="header-custom-icons" />
       </div>

@@ -15,3 +15,10 @@
   flex-wrap: wrap;
   gap: toRem(40);
 }
+
+@media screen and (min-width: 290px) and (max-width: 480px) {
+  .items-container {
+    width: 95%;
+    gap: toRem(15);
+  }
+}
